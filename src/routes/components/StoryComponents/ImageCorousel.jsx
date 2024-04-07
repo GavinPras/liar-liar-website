@@ -20,7 +20,7 @@ export default function ImageCorousel({ images, activeIndex, text, episode, epis
       <div className="relative w-[85%] aspect-video  mx-auto">
         <div className="overflow-hidden">
           <div className="flex justify-center">
-            <img src="./assets/img/Story/contents_story_image_bg02.png" alt="bg" className="w-[55rem] lg:w-[60rem] absolute z-0 transform -rotate-12" />
+            <img src="src/assets/img/Story/contents_story_image_bg02.png" alt="bg" className="w-[55rem] lg:w-[60rem] absolute z-0 transform -rotate-12" />
           </div>
 
           <div className="w-full relative z-10 max-w-[60rem] mx-auto">

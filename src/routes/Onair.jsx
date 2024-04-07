@@ -6,7 +6,7 @@ import DistributionListLg from "./components/OnairComponents/DistributionListLg"
 export default function Onair() {
   return (
     <>
-      <section className="bg-[url('./assets/img/Onair/contents_onair-bg.jpg')] bg-cover bg-center mt-16 w-full h-auto flex flex-col justify-center">
+      <section className="bg-[url('src/assets/img/Onair/contents_onair-bg.jpg')] bg-cover bg-center mt-16 w-full h-auto flex flex-col justify-center">
         <TableContent />
         <DistributionContent />
         <DistributionListSm />

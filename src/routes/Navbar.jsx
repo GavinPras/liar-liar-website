@@ -44,9 +44,9 @@ export default function Navbar() {
     <nav className="w-full h-20 pb-5 bg-white flex-col justify-center pt-4 px-0 z-[9999] lg:h-auto relative lg:flex-row  lg:pt-5">
       <div className="h-14 lg:flex justify-between items-center mx-auto lg:w-[95%] lg:gap-x-5">
         <div className="flex justify-between items-center px-5 lg:px-0">
-          <img src=".\assets\img\Navbar\header_logo.png" alt="header-logo" className="w-48 h-12 lg:w-64 lg:h-auto min-w-1 min-h-1" />
+          <img src="src\assets\img\Navbar\header_logo.png" alt="header-logo" className="w-48 h-12 lg:w-64 lg:h-auto min-w-1 min-h-1" />
           <span onClick={toggleNavVisibility} className="cursor-pointer">
-            <img src={`${isNavVisible ? "./assets/img/Navbar/header_menu_close.svg" : "./assets/img/Navbar/header_menu_open.svg"}`} alt="menu" className="h-12 lg:hidden" />
+            <img src={`${isNavVisible ? "src/assets/img/Navbar/header_menu_close.svg" : "src/assets/img/Navbar/header_menu_open.svg"}`} alt="menu" className="h-12 lg:hidden" />
           </span>
         </div>
 

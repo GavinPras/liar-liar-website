@@ -2,7 +2,7 @@ export default function ProfileDisplay({ selectedChar }) {
   return (
     <>
       <div className="relative w-full mt-8 pt-4 h-[70rem] md:max-h-[50rem] lg:max-h-[52rem] mb-32">
-        <img src="./assets/img/Character/contents_character_bg.png" alt="bg" className="absolute top-0 left-0 w-full h-full z-0" />
+        <img src="src/assets/img/Character/contents_character_bg.png" alt="bg" className="absolute top-0 left-0 w-full h-full z-0" />
 
         <div className="relative z-10 mb-10 h-[62rem] md:max-h-[50rem] lg:max-h-[52rem] md:flex md:px-5 lg:max-w-[70rem] lg:flex lg:mx-auto">
           <div className="w-full h-[45%] flex justify-center items-center md:w-[40%] md:h-full">
@@ -26,7 +26,7 @@ export default function ProfileDisplay({ selectedChar }) {
                 </p>
                 <p className="flex items-center text-lg">
                   <span className="mr-3">{selectedChar.comments}</span>
-                  <img src="./assets\img\Character\contents_staffcast_icon_balloon.svg" alt="comments" className="size-6" />
+                  <img src="src\assets\img\Character\contents_staffcast_icon_balloon.svg" alt="comments" className="size-6" />
                 </p>
               </div>
               <div className="font-NotoJP text-base tracking-wider leading-7 text-slate-800 border-b-2 border-[#222] pb-4 mb-3 md:px-0">
