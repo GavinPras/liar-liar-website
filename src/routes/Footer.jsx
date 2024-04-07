@@ -16,9 +16,9 @@ export default function Footer() {
   ];
 
   const mediaIcon = [
-    { src: "src/assets/img/Footer/footer_icon_twitter.svg", alt: "twitter-icon" },
-    { src: "src/assets/img/Footer/footer_icon_facebook.svg", alt: "facebook-icon" },
-    { src: "src/assets/img/Footer/footer_icon_line.svg", alt: "line-icon" },
+    { src: "./assets/img/Footer/footer_icon_twitter.svg", alt: "twitter-icon" },
+    { src: "./assets/img/Footer/footer_icon_facebook.svg", alt: "facebook-icon" },
+    { src: "./assets/img/Footer/footer_icon_line.svg", alt: "line-icon" },
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
       {/* #151839 */}
       <footer className="bg-[#151839] w-full h-auto flex flex-col justify-between">
         <span>
-          <img src="src\assets\img\Footer\footer_border_bg.png" alt="footer-border" className="h-3" />
+          <img src="./assets\img\Footer\footer_border_bg.png" alt="footer-border" className="h-3" />
         </span>
 
         <div className="container w-full px-8 mt-8 flex flex-col mx-auto">
@@ -50,7 +50,7 @@ export default function Footer() {
             <p className="text-white font-semibold">Contact: </p>
           </span>
           <a href="#">
-            <img src="src\assets\img\Footer\footer_contact_mail.svg" alt="email" className="hover:opacity-50 duration-300 cursor-pointer" />
+            <img src="./assets\img\Footer\footer_contact_mail.svg" alt="email" className="hover:opacity-50 duration-300 cursor-pointer" />
           </a>
         </div>
 

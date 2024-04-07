@@ -19,7 +19,7 @@ export default function Header({ onNavigation }) {
   return (
     <>
       <span>
-        <img src="src\assets\img\Story\contents_header_story.png" alt="header-story" className="w-[35%] mx-auto md:max-w-[10rem]" />
+        <img src="./assets\img\Story\contents_header_story.png" alt="header-story" className="w-[35%] mx-auto md:max-w-[10rem]" />
       </span>
       <div className="px-6 h-auto mt-16 flex flex-wrap justify-center gap-x-4 gap-y-2 font-gothic max-w-[60rem]">
         {buttonList.map((item, index) => (

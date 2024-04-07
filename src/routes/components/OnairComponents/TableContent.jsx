@@ -5,11 +5,11 @@ export default function TableContent() {
   return (
     <>
       <span className="mb-10">
-        <img src="src\assets\img\Onair\contents_header_onair.png" alt="header" className="w-[40%] mx-auto max-w-40" />
+        <img src="./assets\img\Onair\contents_header_onair.png" alt="header" className="w-[40%] mx-auto max-w-40" />
       </span>
 
       <div className="w-full max-w-[65rem] mx-auto">
-        <div className="mb-8 bg-[url('src/assets/img/Onair/contents_onair_head_bg01.png')] bg-cover bg-center w-full max-h-10 py-2 flex justify-center items-center">
+        <div className="mb-8 bg-[url('./assets/img/Onair/contents_onair_head_bg01.png')] bg-cover bg-center w-full max-h-10 py-2 flex justify-center items-center">
           <h1 className="text-white font-NotoJP text-xl font-bold tracking-widest">放送情報</h1>
         </div>
 
