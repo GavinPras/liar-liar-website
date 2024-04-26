@@ -16,7 +16,6 @@ export default function Story() {
       <section className="w-full h-auto mt-20 pb-36 bg-[url('src/assets/img/Story/contents_staffcast_bg01.jpg')] bg-cover bg-center flex justify-center">
         <div>
           <Header onNavigation={handleNavigation} />
-
           <div className="mt-12 w-full h-auto flex flex-col justify-center">
             <ImageCorousel images={imgSrc} activeIndex={activeIndex} text={storyText[activeIndex]} episode={episode[activeIndex]} episodeTitle={episodeTitle[activeIndex]} />
           </div>

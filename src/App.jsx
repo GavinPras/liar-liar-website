@@ -7,6 +7,8 @@ import Introduction from "./routes/Introduction";
 import Story from "./routes/Story";
 import Onair from "./routes/Onair";
 import Character from "./routes/Character";
+import StaffnCast from "./routes/Staff&Cast";
+import BluRay from "./routes/BluRay";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/story" element={<Story />}/>
           <Route path="/onair" element={<Onair />}/>
           <Route path="/character" element={<Character />}/>
+          <Route path="/staffncast" element={<StaffnCast />}/> 
+          <Route path="/bluray" element={<BluRay />}/>
         </Routes>
         <Footer />
       </Router>

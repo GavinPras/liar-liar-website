@@ -9,9 +9,9 @@ export default function Introduction() {
         </div>
 
         <div className="mt-16 z-40 relative">
-          <span>
+          <header>
             <img src="src\assets\img\Introduction\contents_header_introduction.png" alt="bg" className="w-[75%] mx-auto md:max-w-96" />
-          </span>
+          </header>
 
           <div className="text-center text-base md:text-lg w-[85%] mt-16 mx-auto md:max-w-[40rem] lg:max-w-[50rem] font-NotoJP tracking-[0.2em]">
             <p>学生同士がランクを決める決闘ゲームを繰り広げる学園島アカデミー。</p>

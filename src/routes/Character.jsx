@@ -11,9 +11,9 @@ export default function Character() {
   };
   return (
     <main className="w-full h-auto overflow-hidden bg-[url('src/assets/img/Character/contents_staffcast_bg01.jpg')] bg-center bg-cover">
-      <span className="flex justify-center mt-14">
+      <header className="flex justify-center mt-14">
         <img src="src/assets/img/Character/contents_header_character.png" alt="header" className="w-[60%] max-w-72" />
-      </span>
+      </header>
       <ProfileSection handleSelect={handleSelectCharacter} id={setSelectedChar} />
       <ProfileDisplay selectedChar={selectedChar} />
     </main>
